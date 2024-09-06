@@ -45,22 +45,32 @@ int main() {
     BigInt num2("98765432109876543210");
     BigInt result = num1 + num2;
     std::cout << "Sum: " << result << std::endl;
+    
 }
 BigInt a("12345678901234567890");
 BigInt b("98765432109876543210");
 BigInt sum = a + b;
 std::cout << "Sum: " << sum << std::endl;
 // Output: Sum: 111111111011111111100
+
+
+
 BigInt a("98765432109876543210");
 BigInt b("12345678901234567890");
 BigInt diff = a - b;
 std::cout << "Difference: " << diff << std::endl;
 // Output: Difference: 86419753208641975320
+
+
+
 BigInt a("12345678901234567890");
 BigInt b("98765432109876543210");
 BigInt product = a * b;
 std::cout << "Product: " << product << std::endl;
 // Output: Product: 1219326311370217952237463801111263526900
+
+
+
 BigInt a("12345678901234567890");
 BigInt b("98765432109876543210");
 
